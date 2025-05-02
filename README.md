@@ -73,7 +73,7 @@ Show/compare results in one table:
 * Data preprocessing and feature engineering significantly improved the performance of all models, especially Logistic Regression.
 * Random Forest and XGBoost consistently outperformed other models, achieving the highest scores across all metrics.
 * Hyperparameter tuning further enhanced the performance of XGBoost, making it the best-performing model in this analysis.
-* The final XGBoost model demonstrates high accuracy and a strong balance between precision and recall, making it suitable for phishing website detection.
+* The final XGBoost model demonstrates high accuracy and a strong balance between precision and recall(F1 score), making it suitable for phishing website detection.
 
 ### Future Work
 * Explore more advanced feature engineering techniques to further improve model performance.
