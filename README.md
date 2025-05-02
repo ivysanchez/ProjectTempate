@@ -94,11 +94,12 @@ Google Colab: Use Google Colab or Jupyter Notebook to run the code and leverage 
 Kaggle: Access the dataset and potentially explore other related datasets.
 
 ### Overview of files in repository
-* Understanding_the_data.ipynb: initial look at the data
-* Data_Cleaning.ipynb: Cleaning the dataset, cheching for missing values and label encoding
+* Understanding_the_data.ipynb: initial look at the dataset features
+* Data_Cleaning.ipynb: Cleaning the dataset, checking for missing values and label encoding.
 * Baseline_model.ipynb: Initial results of dataset after modeling logistic regression before any preprocessing.
-* Preprocessing.ipynb: scaling, feature selection, and feature engineering
+* Preprocessing.ipynb: scaling, feature selection, and feature engineering.
 * iterative_modeling.ipynb: loads multiple trained models and compares results.
+* Phishing_Classification_final.ipynb: shows the all .ipynbs above put togetehr
 ### Software Setup
 * Required Packages: This project uses the following Python packages:
   * Standard Libraries:
