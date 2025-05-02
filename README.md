@@ -32,6 +32,7 @@ Combined feature: 'hyperlinks_ratio'
 
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics.
+  Key Features:
 <img width="621" alt="Screenshot 2025-05-02 at 1 14 50 PM" src="https://github.com/user-attachments/assets/6844c4a1-54eb-49fb-82a5-3631b456b315" />
 
 
