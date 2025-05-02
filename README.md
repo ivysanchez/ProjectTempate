@@ -3,30 +3,29 @@
 
 # Phishing Website Detection  Project
 
-**One Sentence Summary:** 
 This repository holds an attempt to predict whether a website is legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
 
 ## Overview
 
-* **Tasks / challenge:** The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website. This is crucial for online safety and security, as phishing attacks are a common threat.
+* **Tasks / challenge:** The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website.
 * **Approach:** The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. 
-* **Summary of the performance achieved:** The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.960, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
+* **Summary of the performance achieved:** The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.960 compared to the baseline model of 0.815, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
 
-## Summary of Workdone
+## Summary of Work Done
 
 
 ### Data
 * **Type**: Tabular CSV file
    * **Input**: CSV file containing website features
    * **Output**: Target variable indicating phishing or legitimate status.
-* **Size**: The original dataset had 11430 instances with 88 features.
+* **Size**: The original dataset had 11430 instances with 88 features, with the dataset being balanced 50/50.
 * **Instances (Train, Test, Validation Split)**: The data was split into an 80% training set and a 20% testing set, with no separate validation set used in this initial exploration.
 
 #### Preprocessing / Clean up
 * Missing values: The dataset contained no missing values.
 * Categorical values: All categorical features were converted to numerical values using Label Encoding to be compatible with machine learning algorithms.
 * Feature scaling: StandardScaler was applied to scale numerical features and improve model performance.
-* Feature selection: Features with low importance (below a threshold of 0.02) based on Random Forest feature importance were removed to reduce dimensionality and potentially improve model performance.
+* Feature selection: Features with low importance (below a threshold of 0.02) based on Random Forest feature importance were removed to reduce dimensionality.
 * Feature engineering: New features were created to potentially capture more complex relationships within the data:
 Interaction feature: 'page_rank_x_web_traffic'
 Polynomial feature: 'google_index_squared' 
@@ -35,10 +34,12 @@ Combined feature: 'hyperlinks_ratio'
 
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics and potential outliers. 
-* A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.
+* A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.![Unknown-3](https://github.com/user-attachments/assets/a86882ce-9e2a-4d79-a805-1d6926f4f2f3)
+
 * Bar charts were created to compare the performance of different models across key metrics.
   
-
+Example of bar chart for F1 score:
+![Unknown-17](https://github.com/user-attachments/assets/a92e7482-d181-4302-b978-eb9efe56e5a3)
 
 ### Problem Formulation
 * Input: A set of features extracted from a website.
@@ -92,6 +93,12 @@ To reproduce the results of this project, follow these steps:
 Google Colab: Use Google Colab or Jupyter Notebook to run the code and leverage its computational resources.
 Kaggle: Access the dataset and potentially explore other related datasets.
 
+### Overview of files in repository
+* Understanding_the_data.ipynb: initial look at the data
+* Data_Cleaning.ipynb: Cleaning the dataset, cheching for missing values and label encoding
+* Baseline_model.ipynb: Initial results of dataset after modeling logistic regression before any preprocessing.
+* Preprocessing.ipynb: scaling, feature selection, and feature engineering
+* iterative_modeling.ipynb: loads multiple trained models and compares results.
 ### Software Setup
 * Required Packages: This project uses the following Python packages:
   * Standard Libraries:
@@ -129,6 +136,7 @@ The preprocessing steps are already included in the phishingdetection.ipynb note
 
 ## **Citations**
 * Tiwari, S. (2021, June 27). Web page phishing detection dataset. Kaggle. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data 
+
 
 
 
