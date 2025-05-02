@@ -32,6 +32,7 @@ Combined feature: 'hyperlinks_ratio'
 
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics.
+<img width="621" alt="Screenshot 2025-05-02 at 1 14 50 PM" src="https://github.com/user-attachments/assets/6844c4a1-54eb-49fb-82a5-3631b456b315" />
 
 
 * A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.![Unknown-3](https://github.com/user-attachments/assets/a86882ce-9e2a-4d79-a805-1d6926f4f2f3)
