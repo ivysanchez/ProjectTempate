@@ -69,7 +69,7 @@ Show/compare results in one table:
 
 
 
-* Show one (or few) visualization(s) of results: Bar charts were generated to compare model performance across different metrics.
+* Bar charts were also generated to compare model performance across the different metrics.
 
 ### Conclusions
 * Data preprocessing and feature engineering significantly improved the performance of all models, especially Logistic Regression.
