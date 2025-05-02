@@ -39,6 +39,7 @@ Combined feature: 'hyperlinks_ratio'
   Example of bar chart for F1 score:
   ![Unknown-17](https://github.com/user-attachments/assets/a92e7482-d181-4302-b978-eb9efe56e5a3)
 
+
 ### Problem Formulation
 * Input: A set of features extracted from a website.
 * Output: A binary classification (0 for legitimate, 1 for phishing).
