@@ -98,7 +98,7 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 * Data_Cleaning.ipynb: Cleaning the dataset, checking for missing values and label encoding.
 * Baseline_model.ipynb: Initial results of dataset after modeling logistic regression before any preprocessing.
 * Preprocessing.ipynb: scaling, feature selection, and feature engineering.
-* Iterative_Modeling.ipynb: loads multiple trained models and compares results, shows final model
+* Iterative_Modeling.ipynb: loads multiple trained models and compares results, shows parameter tuning of 2 models.
 * Phishing_Classification_final.ipynb: shows the all .ipynbs above put together
  
 ### Software Setup
