@@ -63,54 +63,10 @@ XGBoost
 ### Performance Comparison
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one table:
-Model
-Accuracy
-Precision
-Recall
-F1 Score
-ROC AUC
-Logistic Regression
-0.922
-0.934
-0.909
-0.921
-0.977
-Decision Tree
-0.956
-0.959
-0.952
-0.955
-0.956
-Random Forest
-0.968
-0.974
-0.962
-0.968
-0.994
-Gradient Boosting
-0.965
-0.966
-0.964
-0.965
-0.993
-SVM
-0.957
-0.971
-0.942
-0.956
-0.991
-XGBoost
-0.971
-0.975
-0.967
-0.971
-0.995
-XGBoost (Tuned)
-0.972
-0.976
-0.968
-0.972
-0.995
+
+<img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/9a339754-dc7f-4033-afa6-d4e16c1106c6" />
+
+
 
 * Show one (or few) visualization(s) of results: Bar charts were generated to compare model performance across different metrics.
 
@@ -146,7 +102,6 @@ Kaggle: Access the dataset and potentially explore other related datasets.
    * sklearn (scikit-learn)
 * Additional Libraries:
    * kagglehub (For downloading the dataset from Kaggle)
-   * xgboost
 
 
 ### Data
@@ -173,7 +128,7 @@ The preprocessing steps are already included in the phishingdetection.ipynb note
 
 
 ## **Citations**
-* Dataset: https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data
+* Tiwari, S. (2021, June 27). Web page phishing detection dataset. Kaggle. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data 
 
 
 
